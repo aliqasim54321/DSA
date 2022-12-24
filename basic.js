@@ -1,4 +1,13 @@
 //1. to print upto n natural number 
+function Natural(num) {
+    let a = 1;
+    while(a<=100){
+        console.log(a);
+        ++a
+    }    
+}
+console.log(Natural(100));
+
 //2. 
 
 // function avg(arr) {
