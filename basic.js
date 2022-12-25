@@ -18,11 +18,16 @@ console.log(Natural(100));
 //   return sum/arr.length;
 // }
 
-// //5
+// 5. Elements greater than avg sum of an array
 
-// function greaterThanAvg(arr){
-//     awd
-// }
+function greaterThanAvg(arr) {
+    let avgNo = avg(arr);
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > avgNo) {
+            console.log(arr[i]);
+        }
+    }
+}
 
 //6 Find the largest element in an array
 // var arr = [3, 6, 2, 56, 32, 5, 89, 32];
