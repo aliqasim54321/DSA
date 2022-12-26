@@ -7,7 +7,7 @@ after swapping it will be arr = [1,3,0,5;4] 4 wil be neglected
 
 let arr = [2,4,6,8,10];
 let target = 6;
-console.log(arr);
+console.log(`The array before deleting is ${arr}`);
 console.log(deleteE(arr,target));
 
 function deleteE(arr,target){

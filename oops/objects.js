@@ -17,7 +17,7 @@
 // let fayaz = new person("lol")
 
 // console.log(qasim.name); 
-
+// ----------------------------------------------------------------------------------------------------------------------
 
 // classes
 
@@ -39,25 +39,29 @@
 // let veh1 =new Vehicle("toyota","bmw");
 // console.log(veh1.name); 
 
-class Bank{
-    constructor(employee_name, unique_id,branch_id){
-        this.employee_name = employee_name;
-        this.unique_id = unique_id;
-        this.branch_id = branch_id; 
-   }
-   getDetails(){
-    console.log(`name : ${this.employee_name}`);
-    console.log(`unique_id : ${this.unique_id}`);
-    console.log(`branch_id : ${this.branch_id}`);
+// Assignment Question
 
-   }
-}
+// class Bank{
+//     constructor(employee_name, unique_id,branch_id){
+//         this.employee_name = employee_name;
+//         this.unique_id = unique_id;
+//         this.branch_id = branch_id; 
+//    }
+//    getDetails(){
+//     return(`name : ${this.employee_name}`);}
+//     getDetails1(){
+//     return(`unique_id : ${this.unique_id}`);}
+//     getDetails2(){
+//     return(`branch_id : ${this.branch_id}`);
+//     }
+// }
 
- let  ban = new Bank("rehaan", 23,55);
-console.log(ban.employee_name);
-console.log(ban.getDetails());
+//  let  ban = new Bank("rehaan", 23,55);
+// console.log(ban.employee_name);
+// console.log(ban.getDetails());
+// console.log(ban.getDetails1());
+// console.log(ban.getDetails2());
 
-
+//BIG O notation
 // space complexcity - amount of space taking to execute a program
 // time complexcity of the program - amount of taking to execute a program
-//linear search if the ele
